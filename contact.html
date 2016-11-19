@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="stylesheet" href="css/amazeui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contactme.css">
+  <script src="js/modernizr.js"></script>
+</head>
+<style>
+    .am-btn-group{
+        width: 100%;
+        align-content: center;
+        background-color: black;
+    }
+    .am-btn-group .am-btn-primary{
+        width: 25%;
+        background: #262b37;
+        
+    }
+    .am-btn-primary{
+        color: #dedede;
+    }
+    .am-btn-group > .am-btn:hover{
+        background: #1b1f29;
+    }
+    .am-btn-primary.am-active, .am-btn-primary:active{
+        background: #1b1f29;
+    }
+    .am-btn-group .am-btn + .am-btn, .am-btn-group .am-btn + .am-btn-group, .am-btn-group .am-btn-group + .am-btn, .am-btn-group .am-btn-group + .am-btn-group{
+        margin-left: 0px;
+    }
+    .am-btn-group .am-btn-primary, .am-btn-group-stacked .am-btn-primary{
+        border-color: #232732;
+    }
+    .biaoti{
+        width: 100%;
+        background-color: black;
+        height: 50px;
+        align-content: center;
+    }
+    h1{
+        color: darkgray !important;
+        line-height: 50px;
+        display: block;
+        text-align:center;
+        font-family: "Century Gothic";
+        font-size: 1.2em;
+
+
+    }
+    .zhong{
+        height: 150px;
+        width: 100%;
+        background-color: #0e1014;
+        line-height: 150px;
+        display: block;
+    }
+    .zhong img{
+        margin-left: 20px;
+        display: block;
+        margin-top: 25px;
+        float: left;
+    }
+    .shuxian{
+        height: 110px;
+        width: 1px;
+        background-color: dimgray;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .dibu{
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        
+    }
+        .eml{
+        margin-left: 5%;
+        color: dimgray;
+        font-size: 0.9em;
+    }
+
+    </style>
+<body>
+    <div class="biaoti">
+        <h1>ShenSir</h1>
+    </div>
+    <div class="am-btn-group doc-js-btn-1" data-am-button>
+  <label class="am-btn am-btn-primary" onclick="javascript:location='index.html'">
+    <input type="radio" name="options" value="选项 1" id="option1"> Home
+  </label>
+  <label class="am-btn am-btn-primary " onclick="javascript:location='work.html'">
+    <input type="radio" name="options" value="选项 2" id="option2"> Work
+  </label>
+  <label class="am-btn am-btn-primary" onclick="javascript:location='about.html'">
+    <input type="radio" name="options" value="选项 3" id="option3"> About
+  </label>
+    <label class="am-btn am-btn-primary am-active" onclick="javascript:location='contact.html'">
+    <input type="radio" name="options" value="选项 3" id="option3"> Contact
+  </label>
+
+</div>
+<form class="cd-form floating-labels">
+		<fieldset>
+			<legend>Contact Me</legend>
+
+			<div class="error-message">
+				<p>请填写你的姓名和邮箱</p>
+			</div>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Name</label>
+				<input class="user" type="text" name="cd-name" id="cd-name" required>
+		    </div> 
+
+
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email">Email</label>
+				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+		    </div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Options</legend>
+
+			<div>
+				<p class="cd-select icon">
+					<select class="budget">
+						<option value="0">招聘我</option>
+						<option value="1"> 交朋友</option>
+						<option value="2">专业交谈</option>
+						<option value="3"> 看上我</option>
+					</select>
+				</p>
+			</div> 
+
+
+
+			
+
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">对我说点什么</label>
+      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="send">
+		    </div>
+		</fieldset>
+		                <legend>Contact Information</legend>
+                <div class="eml">QQ:502568607</div>
+                <div class="eml">WeChat:LinKeng39F</div>
+                <div class="eml">Mobile Phone:13017207038</div>
+	</form>
+	<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>

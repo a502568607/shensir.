@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	       <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+	<title>Horizontal Timeline | CodyHouse</title>
+	      <link rel="stylesheet" href="css/amazeui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/aboutme.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/about.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+</head>
+<style>
+    .am-btn-group{
+        width: 100%;
+        align-content: center;
+        background-color: black;
+    }
+    .am-btn-group .am-btn-primary{
+        width: 25%;
+        background: #262b37;
+        
+    }
+    .am-btn-primary{
+        color: #dedede;
+    }
+    .am-btn-group > .am-btn:hover{
+        background: #1b1f29;
+    }
+    .am-btn-primary.am-active, .am-btn-primary:active{
+        background: #1b1f29;
+    }
+    .am-btn-group .am-btn + .am-btn, .am-btn-group .am-btn + .am-btn-group, .am-btn-group .am-btn-group + .am-btn, .am-btn-group .am-btn-group + .am-btn-group{
+        margin-left: 0px;
+    }
+    .am-btn-group .am-btn-primary, .am-btn-group-stacked .am-btn-primary{
+        border-color: #232732;
+    }
+    .biaoti{
+        width: 100%;
+        background-color: black;
+        height: 50px;
+        align-content: center;
+    }
+    h1{
+        color: darkgray !important;
+        line-height: 50px !important;
+        display: block !important;
+        text-align:center !important;
+        font-family: "Century Gothic";
+        font-size: 1.2em;
+
+    }
+    .guanyu{
+        height: 160px;
+        width: 100%;
+        background-color: #0e1014;
+        
+        display: block;
+    }
+    .guanyu img{
+        margin-right: 20px;
+        display: block;
+        
+        float: right;
+    }
+    .mingpian{
+        text-align: left;
+        height: 100px;
+        width: 60%;
+        float: left;
+        margin-left: 30px;
+    }
+
+    .mingpian h1{
+        line-height: 20px !important;
+        text-align: left !important;
+        font-family: "黑体";
+        font-size: 1em;
+    }
+    .shuxian{
+        height: 110px;
+        width: 1px;
+        background-color: dimgray;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .dibu{
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        
+    }
+    .cd-horizontal-timeline{
+        background: #242831;
+        
+    }
+    .setiao{
+        height: 100%;
+        background: #0e1014;
+    }
+    .setiao h1{
+        line-height: 70px !important;
+        font-size: 1.5em;
+    }
+    .am-progress{
+        background-color: #17191f;
+    }
+    .jindu{
+        width: 80%;
+        margin:0 auto;
+    }
+    .am-progress-bar-danger{
+        background-color: #2F2E2F;
+    }
+    .am-progress-bar-warning {
+        background-color: #2F2E2F;
+    }
+    .am-progress-bar-success{
+        background-color: #2F2E2F;
+    }
+    .am-progress-bar-secondary {
+        background-color: #2F2E2F;
+    }
+    </style>
+<body>
+    <div class="biaoti">
+        <h1>ShenSir</h1>
+    </div>
+    <div class="am-btn-group doc-js-btn-1" data-am-button>
+  <label class="am-btn am-btn-primary" onclick="javascript:location='index.html'">
+    <input type="radio" name="options" value="选项 1" id="option1"> Home
+  </label>
+  <label class="am-btn am-btn-primary " onclick="javascript:location='work.html'">
+    <input type="radio" name="options" value="选项 2" id="option2"> Work
+  </label>
+  <label class="am-btn am-btn-primary am-active" am-active onclick="javascript:location='about.html'">
+    <input type="radio" name="options" value="选项 3" id="option3"> About
+  </label>
+    <label class="am-btn am-btn-primary" onclick="javascript:location='contact.html'">
+    <input type="radio" name="options" value="选项 3" id="option3"> Contact
+  </label>
+
+</div>
+            <div class="guanyu">
+                 <h1>ABOUT ME</h1>
+                   <div class="mingpian">
+                       <h1>Name:沈剑峰</h1>
+                       <h1>Age:21</h1>
+                       <h1>Profession:前端/交互</h1>
+                       <h1>School:长沙师范学院</h1>
+                   </div>
+                    <img class="am-circle" src="img/helmet1.jpg" width="80" height="80"/>
+            </div>
+<section class="cd-horizontal-timeline">
+    <h1>Personal experience</h1>
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="16/01/2014" class="selected">2013</a></li>
+					<li><a href="#0" data-date="28/02/2014">2014</a></li>
+					<li><a href="#0" data-date="20/04/2014">2015</a></li>
+					<li><a href="#0" data-date="20/05/2014">2016</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="16/01/2014">
+				<h2>去北京培训</h2>
+				<em>January 16th, 2013</em>
+				<p>	
+                    一个17岁的少年独自从岳阳到北京的旅程。带着憧憬来到北京的李靖画室，看到的一切都是陌生的，有过放弃但是最后还是坚持下来了，然后艺考是结局并不是很美好，但是从来没有后悔过。
+				</p>
+			</li>
+
+			<li data-date="28/02/2014">
+				<h2>长沙师范学院</h2>
+				<em>September 14th, 2014</em>
+				<p>	
+					高考结束最后来到了长沙师范学院，努力过了就没有后悔。但是看到学校的面貌感觉那时候有点掺不忍睹。现在还是好多了。
+				</p>
+			</li>
+
+			<li data-date="20/04/2014">
+				<h2>学习中</h2>
+				<em>March 20th, 2015</em>
+				<p>	
+                    很平淡的在学校度过。
+				</p>
+			</li>
+
+			<li data-date="20/05/2014">
+				<h2>毕业设计</h2>
+				<em>November 11th, 2016</em>
+				<p>	
+                    就是现在的我，正在为毕业设计而奋斗中，每天加班加点。
+				</p>
+			</li>
+		</ol>
+	</div>
+	<div class="setiao">
+        <h1>skills</h1>
+        <div class="jindu">
+        <div class="am-progress am-progress-striped">
+          <div class="am-progress-bar am-progress-bar-danger" style="width: 70%">HTML5</div>
+        </div>
+        <div class="am-progress am-progress-striped">
+          <div class="am-progress-bar am-progress-bar-warning" style="width: 60%">CCS3</div>
+        </div>
+        <div class="am-progress am-progress-striped">
+          <div class="am-progress-bar am-progress-bar-success" style="width: 18%">jQuery</div>
+        </div>
+        <div class="am-progress am-progress-striped">
+          <div class="am-progress-bar am-progress-bar-secondary" style="width: 75%">PS/FLASH/AE</div>
+        </div>
+        </div>
+
+	</div> <!-- .events-content -->
+</section>
+	
+<script src="js2/jquery-2.1.4.js"></script>
+<script src="js2/jquery.mobile.custom.min.js"></script>
+<script src="js2/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
